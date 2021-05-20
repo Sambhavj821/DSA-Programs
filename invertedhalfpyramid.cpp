@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-    int row,col;
-    cin>>row>>col;
-    for(int i=1;i<=row;i++)
+    int n;
+    cin>>n;
+    for(int i=n;i>=1;i--)
     {
-        for(int j=1;j<=col;j++)
+        for(int j=1;j<=i;j++)
         {
             cout<<"*";
         }
